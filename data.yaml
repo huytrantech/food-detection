@@ -1,0 +1,13 @@
+train: ../train2/images
+val: ../valid2/images
+test: ../test2/images
+
+nc: 13
+names: ['0', '1', '10', '11', '12', '2', '3', '4', '5', '6', '7', '8', '9']
+
+roboflow:
+  workspace: food-gqjn2
+  project: food-v2
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/food-gqjn2/food-v2/dataset/2
